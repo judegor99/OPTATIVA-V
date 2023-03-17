@@ -9,7 +9,7 @@
 
     $message= isset($_POST['message'])? $_POST['message']:'';
     $email= isset($_POST['email'])? $_POST['email']:'';
-    $connect = mysqli_connect('localhost', 'j_user', 'Julian12345**', 'bd_forms');
+    $connect = mysqli_connect('db4free.net', 'user_admon', 'Julian12345**', 'bd_form');
     $email_error = "";
     $message_error = "";
     $errors = "";
